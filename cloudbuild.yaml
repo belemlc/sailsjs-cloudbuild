@@ -1,0 +1,5 @@
+steps:
+
+- id: 'Instalando dependencias package.json'
+  name: 'gcr.io/cloud-builders/npm'
+  args: ['npm', 'install']
